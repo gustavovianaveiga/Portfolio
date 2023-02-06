@@ -1,4 +1,50 @@
 #secoundsection {
     max-width: 445px!important;
     width: 445px!important;
+    height: 400px;
+    background: #282A36;
+    border-radius: 10px;
+}
+
+#numberstable p {
+    color: #555555
+}
+
+#numberstable {
+    height: 318px;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+#macicon {
+    border-radius: 100%;
+    width: 17px;
+    height: 14px;
+    position: relative;
+    top: -180px;
+    display: flex;
+    left: 20px;
+    background: red;
+}
+
+#macicon::after {
+    border-radius: 100%;
+    content: '';
+    max-width: 14px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 20px;
+    background: yellow;
+}
+
+#macicon::before {
+    border-radius: 100%;
+    content: '';
+    max-width: 14px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 40px;
+    background: green;
 }

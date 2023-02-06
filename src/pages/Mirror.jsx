@@ -4,8 +4,9 @@ import './Mirror.css';
 
 
 
-const Textareastyled = styled.textarea`background: transparent; width:445px;height:260px;
-&:focus-visible{outline: none}
+const Textareastyled = styled.textarea`background: transparent; width:445px;height:350px;
+&:focus-visible{outline: none};
+margin:15px;
 &::-webkit-scrollbar-track{ background: transparent;}
 &::-webkit-scrollbar{ background: transparent; width:2px}
 &::-webkit-scrollbar-thumb{ background: rgb(210, 210, 210);}
@@ -16,7 +17,6 @@ const Agrupamento = styled.div`height:500px; width:90%`
 function Mirror() {
 
     const [code, setcode] = useState(`
-    
     color: rgb(215, 215, 215);
     margin:5px;
     width:80px;
@@ -70,7 +70,25 @@ function Mirror() {
             <section className='flex flex-col items-center justify-center '>
                 <Square className='flex justify-center'></Square>
             </section>
-            <section id='secoundsection'>
+
+            <section id='secoundsection' className='flex items-center justify-center'>
+                <div id='macicon'></div>
+                <div className='flex flex-col justify-between' id='numberstable'>
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                    <p>4</p>
+                    <p>5</p>
+                    <p>6</p>
+                    <p>7</p>
+                    <p>8</p>
+                    <p>9</p>
+                    <p>10</p>
+                    <p>11</p>
+                    <p>12</p>
+                    <p>13</p>
+                    <p>14</p>
+                </div>
                 <Textareastyled autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" onChange={mirrorcode}>{code}</Textareastyled></section>
         </Agrupamento>
     )
