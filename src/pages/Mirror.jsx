@@ -4,9 +4,10 @@ import './Mirror.css';
 
 
 
-const Textareastyled = styled.textarea`background: transparent; width:445px;height:350px;
+const Textareastyled = styled.textarea`background: transparent; width:445px;height:326px;
 &:focus-visible{outline: none};
 margin:15px;
+margin-top: 37px;
 &::-webkit-scrollbar-track{ background: transparent;}
 &::-webkit-scrollbar{ background: transparent; width:2px}
 &::-webkit-scrollbar-thumb{ background: rgb(210, 210, 210);}
@@ -16,8 +17,7 @@ const Agrupamento = styled.div`height:500px; width:90%`
 
 function Mirror() {
 
-    const [code, setcode] = useState(`
-    color: rgb(215, 215, 215);
+    const [code, setcode] = useState(`    color: rgb(215, 215, 215);
     margin:5px;
     width:80px;
     height:80px;

@@ -4,6 +4,7 @@
     height: 400px;
     background: #282A36;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 #numberstable p {
