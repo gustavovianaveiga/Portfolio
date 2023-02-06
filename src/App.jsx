@@ -8,7 +8,7 @@ function App() {
     <div className="App flex justify-between flex-col">
       <div>
         <Header></Header>
-        <Main></Main></div>
+        <Main>  </Main></div>
       <Footer></Footer>
     </div>
   )
