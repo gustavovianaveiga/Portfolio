@@ -63,12 +63,12 @@ function Mirror() {
     const espelho = () => setvalue(document.querySelector('input').value)
     const mirrorcode = () => setcode(document.querySelector('textarea').value)
 
-    const Square = styled.div`${code}`
+    const Planet = styled.div`${code}`
 
     return (
-        <Agrupamento className='flex justify-between items-center' >
+        <Agrupamento className='flex justify-between items-center' id='agrupamento'>
             <section className='flex flex-col items-center justify-center '>
-                <Square className='flex justify-center'></Square>
+                <Planet className='flex justify-center'></Planet>
             </section>
 
             <section id='secoundsection' className='flex items-center justify-center'>
@@ -90,6 +90,7 @@ function Mirror() {
                     <p>14</p>
                 </div>
                 <Textareastyled autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" onChange={mirrorcode}>{code}</Textareastyled></section>
+
         </Agrupamento>
     )
 }

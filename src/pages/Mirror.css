@@ -49,3 +49,26 @@
     left: 40px;
     background: green;
 }
+
+#agrupamento {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    #agrupamento {
+        justify-content: center;
+        align-items: center;
+        height: 700px
+    }
+    section {
+        min-width: 220px;
+    }
+}
+
+@media (max-width: 375px) {
+    #agrupamento {
+        justify-content: center;
+        align-items: center;
+        height: 700px
+    }
+}
