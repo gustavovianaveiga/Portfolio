@@ -26,6 +26,7 @@ function Laptop() {
             $('#night').attr('class', 'off')
         } else { $('#night').css({ 'opacity': '1' }); $('#night').attr('class', 'on') }
     }
+
     return (
         <div className='global'>
 
@@ -34,8 +35,10 @@ function Laptop() {
                 <div id='telaecapa'>
                     <div id="tela" className='card__face'>
                         <div id="conteudo">
-                            <video autoplay src="https://lofi-new.s3.us-east-2.amazonaws.com/seoul/inside+-+night.mp4" id='day'></video>
-                            <video autoplay src="https://lofi-new.s3.us-east-2.amazonaws.com/seoul/inside+-+day.mp4" id='night' className='on' ></video>
+                            <video id='day' autoplay muted playsinline>
+                                <source src="https://lofi-new.s3.us-east-2.amazonaws.com/seoul/inside+-+night.mp4" type="video/mp4"></source>
+                            </video>
+                            <video autoplay muted playsinline src="https://lofi-new.s3.us-east-2.amazonaws.com/seoul/inside+-+day.mp4" id='night' className='on' ></video>
                         </div>
                     </div>
                     <div id="capa" className='card__face'></div>

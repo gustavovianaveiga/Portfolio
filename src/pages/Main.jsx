@@ -3,6 +3,7 @@ import './Main.css';
 import Mirror from './Mirror'
 import Laptop from './Laptop'
 import Sobre from './Sobre'
+import Cube from './Cube';
 
 
 
@@ -23,6 +24,10 @@ function Main() {
             <div id="main" className='text-white flex flex-col items-center justify-center'>
 
                 <Mirror name='gustavo'></Mirror>
+            </div>
+            <div id="main3" className='text-white flex flex-col items-center justify-center'>
+
+                <Cube></Cube>
             </div>
 
         </main>

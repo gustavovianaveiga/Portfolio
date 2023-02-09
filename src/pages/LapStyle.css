@@ -78,6 +78,10 @@
         border-radius: inherit;
     }
     
+    video:focus-visible {
+        outline: none;
+    }
+    
     #night {
         opacity: 1;
     }
