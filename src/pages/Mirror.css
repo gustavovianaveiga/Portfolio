@@ -26,9 +26,11 @@
     display: flex;
     left: 20px;
     background: red;
+    cursor: pointer;
 }
 
 #macicon::after {
+    cursor: pointer;
     border-radius: 100%;
     content: '';
     max-width: 14px;
@@ -40,6 +42,7 @@
 }
 
 #macicon::before {
+    cursor: pointer;
     border-radius: 100%;
     content: '';
     max-width: 14px;

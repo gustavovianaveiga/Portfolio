@@ -9,9 +9,9 @@ function Header() {
                 <div className='flex justify-between '>
                     <h1>&lt;Veiga/&gt;</h1>
                     <section className='flex justify-between'>
-                        <ul><a href="#Projetos">Projetos</a></ul>
+                        <ul><a href="#agrupamento">Projetos</a></ul>
                         <ul><a href="#footer">Contato</a></ul>
-                        <ul><a href="#Sobre">Sobre</a></ul>
+                        <ul><a href="#sobre">Sobre</a></ul>
                     </section>
                 </div>
             </div>
