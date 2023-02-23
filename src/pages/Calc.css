@@ -1,0 +1,90 @@
+#Calc {
+    width: 350px;
+    height: 500px;
+    border-radius: 8px;
+    background: #121212;
+}
+
+#display {
+    margin-top: 0px!important;
+    width: 90%;
+    margin: 10px;
+    height: 100px;
+    background: #3e3e3e;
+    border-radius: 5px;
+}
+
+#appleicon {
+    width: 75px;
+    height: 35px;
+}
+
+#icons {
+    width: 50px;
+}
+
+#appleicon ul {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#teclas {
+    width: 330px;
+    margin: 10px;
+    height: 320px;
+}
+
+#teclas div:hover {
+    background: rgb(32, 32, 32);
+}
+
+.cem {
+    height: 100%;
+    width: 105px;
+}
+
+#result {
+    color: rgb(160, 160, 160)
+}
+
+#teclas div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    margin: 2px;
+    cursor: pointer;
+    height: 60px;
+    background: rgb(24, 24, 24);
+    border-radius: 50%;
+}
+
+.operadores {
+    background: #b46900!important;
+}
+
+.operadores:hover {
+    background: #d77e01!important;
+}
+
+.operadoressecundarios {
+    background: #606060!important;
+}
+
+.operadoressecundarios:hover {
+    background: #878787!important;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
